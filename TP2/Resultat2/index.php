@@ -1,20 +1,34 @@
 <?php
-require_once('template_header.php');
-require_once('template_menu.php');
+require_once "template_header.php" ;
+require_once "template_menu.php" ;
+$currentPageId = 'accueil';
+if(isset($_GET['page'])) {
+    $currentPageId = $_GET['page'];
+}
 ?>
- <header>
-        <h1>Ji Hao</h1>
-    </header>
+<header id="header">
+    <h1>Hao Ji IDAW TP2 ex6</h1>
+</header>
 
-    <nav class="menu">
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
-        </ul>
-    </nav>
-    <article>
-        <h2>Qui suis-je ?</h2>
-        <p>Un enseignant-chercheur</p>
-    </article>
-<?php require_once('template_footer.php'); ?>
+<div id="nav">
+<?php
+renderMenuToHTML($currentPageId);
+?>
+</div>
+
+<section class="corps">
+
+<?php
+$pageToInclude = $currentPageId . ".php";
+if(is_readable($pageToInclude))
+    require_once($pageToInclude);
+else {
+    //require_once("error.php");
+}
+?>
+
+</section>
+
+<?php
+require_once("template_footer.php");
+?>

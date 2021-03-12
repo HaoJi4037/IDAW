@@ -1,12 +1,11 @@
 
 body{
-    background: url(bg2.jpg);
+  background-color: rgb(120, 60, 60);
 }
 
 div{
 border:50px;
 border-radius: 5px;
-background: url(bg1.jpg);
 position: 80px;
 background-size: 100% auto;
 width: 65%;

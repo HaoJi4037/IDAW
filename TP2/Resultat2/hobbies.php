@@ -1,6 +1,9 @@
 <?php
-require_once('template_header.php');
+require_once('template_header.php')
+?>
+<?php
 require_once('template_menu.php');
+renderMenuToHTML('hobbies');
 ?>
 <nav class="menu">
                 <ul>
@@ -11,4 +14,4 @@ require_once('template_menu.php');
             </nav>
             <h1>Mes hobbies</h1>
             <p> Mangez un délicieux pot chaud et un barbecue</p>
-            <?php require_once('template_footer.php'); ?>
+<?php require_once('template_footer.php'); ?>

@@ -1,10 +1,10 @@
 <?php
 require_once('template_header.php')
 ?>
-<?php
+<!--<?php
 require_once('template_menu.php');
 renderMenuToHTML('cv');
-?>
+?>-->
 	<div>
 		
 		<table  width="800" align="center">

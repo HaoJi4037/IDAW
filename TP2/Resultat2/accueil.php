@@ -1,10 +1,10 @@
 <?php
 require_once('template_header.php')
 ?>
-<?php
+<!--<?php
 require_once('template_menu.php');
 renderMenuToHTML('accueil');
-?>
+?>-->
  <header>
         <h1>Ji Hao</h1>
     </header>
@@ -18,6 +18,6 @@ renderMenuToHTML('accueil');
     </nav>
     <article>
         <h2>Qui suis-je ?</h2>
-        <p>Un enseignant-chercheur</p>
+        <p>Un etudiant du numerique</p>
     </article>
 <?php require_once('template_footer.php'); ?>

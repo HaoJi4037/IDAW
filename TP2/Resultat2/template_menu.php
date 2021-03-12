@@ -7,10 +7,11 @@ function renderMenuToHTML($currentPageId) {
     );
     echo "<ul>";
     foreach($mymenu as $pageId => $pageParameters) {
-      echo "<li>";
-        if ($pageId == $currentPageId) 
-            echo "<a id='currentpage' href='http://localhost/Resultat2/index.php?page=" . $pageId . "'>" . $pageParameters[0] . "</a>";
-            echo "</li>";
+        if ($pageId == $currentPageId) {
+            echo "<li><a id='currentpage' href='http://localhost/Resultat2/index.php?page=" . $pageId . "'>" . $pageParameters[0] . "</a></li>";
+        }else{
+            echo "<li><a  href='http://localhost/Resultat2/index.php?page=" . $pageId . "'>" . $pageParameters[0] . "</a></li>";
+        }
     }
     echo "</ul>";
 }

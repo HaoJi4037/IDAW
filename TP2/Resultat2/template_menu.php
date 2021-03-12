@@ -9,7 +9,7 @@ function renderMenuToHTML($currentPageId) {
     foreach($mymenu as $pageId => $pageParameters) {
       echo "<li>";
         if ($pageId == $currentPageId) 
-            echo "<a id='currentpage' href='http://localhost/TP2/index.php?page=" . $pageId . "'>" . $pageParameters[0] . "</a>";
+            echo "<a id='currentpage' href='http://localhost/Resultat2/index.php?page=" . $pageId . "'>" . $pageParameters[0] . "</a>";
             echo "</li>";
     }
     echo "</ul>";

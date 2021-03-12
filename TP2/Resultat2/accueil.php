@@ -9,13 +9,13 @@ renderMenuToHTML('accueil');
         <h1>Ji Hao</h1>
     </header>
 
-    <nav class="menu">
+    <!-- <nav class="menu">
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="cv.php">CV</a></li>
             <li><a href="hobbies.php">Hobbies</a></li>
         </ul>
-    </nav>
+    </nav> -->
     <article>
         <h2>Qui suis-je ?</h2>
         <p>Un etudiant du numerique</p>

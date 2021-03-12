@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>CV</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="tp1.css">
-</head>
-<body>
+<?php
+require_once('template_header.php');
+require_once('template_menu.php');
+?>
 	<div>
 		
 		<table  width="800" align="center">
@@ -16,7 +12,7 @@
 				</td>
 				<td >
 					
-				<img src="p.jpg" width="130" height="130" alt="图片" align="right">
+				<img src="haoji.jpg" width="130" height="130" alt="图片" align="right">
 				</td>
 			</tr>
  
@@ -36,63 +32,63 @@
 				<td width="100" height="50"></td>
 			</tr>
 			<tr>
-				<td>出生年月：</td>
+				<td>Birthday：</td>
 				<td width="100" height="50"></td>
 				
 				<td>TELE：</td>
 				<td width="100" height="50"></td>
-				<td>工作经验：</td>
+				<td>Expirence：</td>
 				<td width="100" height="50"></td>
 			</tr>
 			<tr>
-				<td>学历：</td>
+				<td>Education：</td>
 				<td width="100" height="50"></td>
 				
-				<td>专业：</td>
+				<td>speciality：</td>
 				<td width="100" height="50"></td>
-				<td>毕业学校：</td>
+				<td>Graduated school：</td>
 				<td width="100" height="50"></td>
 			</tr>
 			<tr>
-				<td>住址：</td>
+				<td>address：</td>
 				<td height="50"></td>
 			</tr>
 			<tr>
-				<td>电子邮箱：</td>
+				<td>E-mail：</td>
 				<td height="50"></td>
 			</tr>
 			<tr>
-				<td>求职意向：</td>
+				<td>Career Objective：</td>
 				<td height="50"></td>
 			</tr>
 	    </table>
 	    <hr width="800" align="center">
 	    <table align="center" width="800">
 	        <tr>
-				<td>目标职位</td>
+				<td>Target position</td>
 				<td height="50"></td>
 			</tr>
 			<tr>
-				<td>目标行业：</td>
+				<td>Target Industry：</td>
 				<td height="50"></td>
 			</tr>
 			<tr>
-				<td>期望薪资：</td>
+				<td>expected salary：</td>
 				<td height="50"></td>
 			</tr>
 			<tr>
-				<td>期望地区：</td>
+				<td>Desired area：</td>
 				<td height="50"></td>
 			</tr>
 			<tr>
-				<td>爱好特长：</td>
+				<td>hobbies：</td>
 				<td height="50"></td>
 			</tr>
 		</table>
 			
 		<hr width="800" align="center">
 		
-		<h4 align="left"> 自我评价</h4>
+		<h4 align="left"> Self-evaluation</h4>
 		
 		<hr width="800" align="center">
 		<table align="center" width="800">
@@ -101,5 +97,4 @@
  
 	   </table>
 	</div>
-</body>
-</html>
+<?php require_once('template_footer.php'); ?>

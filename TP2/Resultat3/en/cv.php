@@ -1,10 +1,6 @@
 <?php
 require_once('template_header.php')
 ?>
-<!--<?php
-require_once('template_menu.php');
-renderMenuToHTML('cv');
-?>-->
 	<div>
 		
 		<table  width="800" align="center">
@@ -15,7 +11,7 @@ renderMenuToHTML('cv');
 				</td>
 				<td >
 					
-				<img src="haoji.jpg" width="130" height="130" alt="图片" align="right">
+				<img src="haoji.jpg" width="130" height="130" alt="pic" align="right">
 				</td>
 			</tr>
  

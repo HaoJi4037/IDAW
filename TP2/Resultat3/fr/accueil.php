@@ -1,10 +1,6 @@
 <?php
 require_once('template_header.php')
 ?>
-<!--<?php
-require_once('template_menu.php');
-renderMenuToHTML('accueil');
-?>-->
  <header>
         <h1>Je Suis Ji Hao</h1>
     </header>

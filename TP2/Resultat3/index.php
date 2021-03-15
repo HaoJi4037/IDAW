@@ -11,7 +11,7 @@ if(isset($_GET['lang'])) {
 }
 ?>
 <header id="header">
-    <h1>Hao Ji IDAW TP2 ex6</h1>
+    <h1>Hao Ji IDAW TP2 ex7</h1>
 </header>
 
 <div id="nav">

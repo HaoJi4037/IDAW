@@ -1,10 +1,6 @@
 <?php
 require_once('template_header.php')
 ?>
-<!--<?php
-require_once('template_menu.php');
-renderMenuToHTML('hobbies');
-?>-->
 
                 <!-- <ul>
                     <li><a href="index.php">Accueil</a></li>

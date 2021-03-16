@@ -4,8 +4,7 @@
 $users = array(
     // login => password
     'riri' => 'fifi',
-    'yoda' => 'maitrejedi',
-    'haoji_312' => 'balabala' );
+    'yoda' => 'maitrejedi' );
 
 print_r($_POST);
 

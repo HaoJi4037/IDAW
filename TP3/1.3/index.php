@@ -19,8 +19,8 @@
     <body>
         <form id="style_form" action="getCookie.php" method="POST">
             <select name="css">
-                <option value="style1">Style1Red</option>
-                <option value="style2">Style2Green</option>
+                <option value="style1">style1Red</option>
+                <option value="style2">style2Green</option>
                 <option value="css_default">Default</option>
             </select>
             <input type="submit" value="Appliquer" />
